@@ -1,12 +1,8 @@
+import Layout from '@/components/ui/layout/Layout'
 import { FC } from 'react'
-import { Text, View } from 'react-native'
 
 const Home: FC = () => {
-	return (
-		<View>
-			<Text>Home</Text>
-		</View>
-	)
+	return <Layout title='Таймер'></Layout>
 }
 
 export default Home
